@@ -76,7 +76,7 @@ const CTACards = styled(BaseLayout)`
 `
 const Header = styled.div`
   padding: 32px 0px;
-  background: ${({ theme }) => theme.colors.gradients.bubblegum};
+  background: ${({ theme }) => theme.colors.primaryBright};
 
   padding-left: 16px;
   padding-right: 16px;
@@ -94,8 +94,8 @@ const Home: React.FC = () => {
   return (
     <>
       <Header>
-        <Heading as="h1" size="xl" color="gold" mb="24px">
-          Find The Treasure of Cortés by staking your assets.
+        <Heading as="h1" size="xl" color="#FFFFFF" mb="24px">
+          Bourbon Finance
         </Heading>
       </Header>
       <Page>

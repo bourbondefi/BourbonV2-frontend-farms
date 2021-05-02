@@ -5,7 +5,7 @@ import { allLanguages } from 'config/localisation/languageCodes'
 import { LanguageContext } from 'contexts/Localisation/languageContext'
 import useTheme from 'hooks/useTheme'
 import useAuth from 'hooks/useAuth'
-import { usePriceCakeBusd, useProfile } from 'state/hooks'
+import { usePriceCakeBusd, useProfile, usePriceBrrlBusd, usePriceTSBBusd } from 'state/hooks'
 import config from './config'
 
 const Menu = (props) => {
@@ -15,6 +15,8 @@ const Menu = (props) => {
   const { isDark, toggleTheme } = useTheme()
   const cakePriceUsd = usePriceCakeBusd()
   const { profile } = useProfile()
+  const brrlPriceusd = usePriceBrrlBusd()
+  const tsbPriceusd = usePriceTSBBusd()
 
   return (
     <UikitMenu
@@ -27,6 +29,8 @@ const Menu = (props) => {
       langs={allLanguages}
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd.toNumber()}
+      brrlPriceUsd={brrlPriceusd.toNumber()}
+      tsbPriceUsd={tsbPriceusd.toNumber()}
       links={config}
       profile={{
         username: profile?.username,

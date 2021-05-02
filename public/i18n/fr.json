@@ -135,7 +135,7 @@
     {
       "data": {
         "stringId": 322,
-        "text": "Stake Gold, get SYRUP."
+        "text": "Stake Rbt, get SYRUP."
       }
     },
     {
@@ -225,7 +225,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "Prix du Gold"
+        "text": "Prix du Rbt"
       }
     },
     {
@@ -651,7 +651,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "Gold Stats"
+        "text": "Rbt Stats"
       }
     },
     {
@@ -1113,7 +1113,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Stake LP tokens to earn LYPTUS"
+        "text": "Stake LP tokens to earn RBT"
       }
     },
     {

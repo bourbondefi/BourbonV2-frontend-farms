@@ -1,7 +1,7 @@
 export default {
   cake: {
     97: '',
-    56: '0x8298fea38aA8627316FFd943FE001b69Cac8174d',
+    56: '0x7595bb34Bf391C3de0a6878A36D06223b2BFd404',
   },
   syrup: {
     97: '',
@@ -9,7 +9,7 @@ export default {
   },
   masterChef: {
     97: '',
-    56: '0xE3F6CC3cF873BDB71f400668bd755B9269C6864A',
+    56: '0x1Aca521795CAc924f78145Fe99B1E7735b690864',
   },
   sousChef: {
     97: '',
@@ -28,7 +28,7 @@ export default {
     56: '0x5e74094Cd416f55179DBd0E45b1a8ED030e396A1',
   },
   mulltiCall: {
-    56: '0x1ee38d535d541c55c9dae27b12edf090c608e6fb',
+    56: '0xAf1CD7D6Cb2B7E2805fa1Fb2c589654DEBa86A56',
     97: '0x67ADCB4dF3931b0C5Da724058ADC2174a9844412',
   },
   busd: {
@@ -66,5 +66,17 @@ export default {
   bunnySpecial: {
     56: '0xFee8A195570a18461146F401d6033f5ab3380849',
     97: '0x7b7b1583De1DeB32Ce6605F6deEbF24A0671c17C',
+  },
+  brrl: {
+    56: '0xcbe73dd7E8FC74011136b837a59205801c45e6A1',
+    97: '',
+  },
+  rbt: {
+    56: '0x7595bb34Bf391C3de0a6878A36D06223b2BFd404',
+    97: '',
+  },
+  tsb: {
+    56: '0xA37F71f092F891757d23Dd350f57C78E8469c026',
+    97: '',
   },
 }

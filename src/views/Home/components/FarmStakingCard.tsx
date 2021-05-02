@@ -58,13 +58,13 @@ const FarmedStakingCard = () => {
         <Heading size="lg" mb="24px">
           {TranslateString(542, 'Farms & Staking')}
         </Heading>
-        <CardImage src="/images/AztecGold.png" alt="Aztec Gold Logo" width={64} height={64} />
+        <CardImage src="/images/9.png" alt="Bourbon DeFi Logo" width={64} height={64} />
         <Block>
-          <Label>{TranslateString(544, 'GOLD to Harvest')}:</Label>
+          <Label>{TranslateString(544, 'Bourbon to Harvest')}:</Label>
           <CakeHarvestBalance />
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'GOLD in Wallet')}:</Label>
+          <Label>{TranslateString(546, 'Bourbon in Wallet')}:</Label>
           <CakeWalletBalance />
         </Block>
         <Actions>
@@ -76,7 +76,7 @@ const FarmedStakingCard = () => {
               width="100%"
             >
               {pendingTx
-                ? TranslateString(548, 'Collecting GOLD')
+                ? TranslateString(548, 'Collecting Bourbon')
                 : TranslateString(532, `Harvest all (${balancesWithValue.length})`)}
             </Button>
           ) : (

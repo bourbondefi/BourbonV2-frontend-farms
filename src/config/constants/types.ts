@@ -36,6 +36,9 @@ export enum QuoteToken {
   'SUSHI' = 'SUSHI',
   'GOLD' = 'GOLD',
   'LYPTUS' = 'LYPTUS',
+  'BRRL' = 'BRRL',
+  'RBT' = 'RBT',
+  'TSB' = 'TSB',
 }
 
 export enum PoolCategory {

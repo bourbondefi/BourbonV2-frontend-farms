@@ -16,7 +16,7 @@
     "inputs": [
       {
         "internalType": "contract IBEP20",
-        "name": "_gold",
+        "name": "_rbt",
         "type": "address"
       },
       {
@@ -318,7 +318,7 @@
   },
   {
     "inputs": [],
-    "name": "gold",
+    "name": "rbt",
     "outputs": [
       {
         "internalType": "contract IBEP20",
@@ -388,7 +388,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "accGoldPerShare",
+        "name": "accRbtPerShare",
         "type": "uint256"
       },
       {

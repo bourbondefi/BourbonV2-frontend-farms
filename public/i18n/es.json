@@ -645,7 +645,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "Estadísticas de Gold"
+        "text": "Estadísticas de Rbt"
       }
     },
     {
@@ -795,7 +795,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "\u2b50\ufe0f Every time you stake and unstake LP Tokens, the contract will automatically harvest GOLD rewards for you!"
+        "text": "\u2b50\ufe0f Every time you stake and unstake LP Tokens, the contract will automatically harvest RBT rewards for you!"
       }
     },
     {

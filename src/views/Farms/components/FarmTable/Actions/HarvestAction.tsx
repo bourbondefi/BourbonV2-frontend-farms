@@ -47,7 +47,7 @@ const HarvestAction: React.FunctionComponent<FarmWithStakedValue> = ({ pid, user
   return (
     <ActionContainer>
       <ActionTitles>
-        <Title>GOLD </Title>
+        <Title>RBT </Title>
         <Subtle>{TranslateString(739, 'EARNED')}</Subtle>
       </ActionTitles>
       <ActionContent>
