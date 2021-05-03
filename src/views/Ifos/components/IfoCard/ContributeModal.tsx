@@ -80,7 +80,7 @@ const ContributeModal: React.FC<Props> = ({ currency, contract, currencyAddress,
           onConfirm={handleConfirm}
         />
         <LinkExternal
-          href="https://https://exchange.bourbondefi.com/#/add/ETH/0xba26397cdff25f0d26e815d218ef3c77609ae7f1"
+          href="https://https://v2exchange.bourbondefi.com/#/add/ETH/0xba26397cdff25f0d26e815d218ef3c77609ae7f1"
           style={{ margin: '16px auto 0' }}
         >
           {`Get ${currency}`}

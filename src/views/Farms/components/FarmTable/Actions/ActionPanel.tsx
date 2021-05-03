@@ -172,7 +172,7 @@ const ActionPanel: React.FunctionComponent<ActionPanelProps> = ({ details, apr, 
       <InfoContainer>
         <StakeContainer>
           Stake:
-          <StyledLinkExternal href={`https://exchange.bourbondefi.com/#/add/${liquidityUrlPathParts}`}>
+          <StyledLinkExternal href={`https://v2exchange.bourbondefi.com/#/add/${liquidityUrlPathParts}`}>
             {lpLabel}
           </StyledLinkExternal>
         </StakeContainer>
