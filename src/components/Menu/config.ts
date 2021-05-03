@@ -9,7 +9,7 @@ const config: MenuEntry[] = [
   {
     label: 'Version 1',
     icon: 'HomeIcon',
-    href: 'https://www.v1bourbondefi.com/',
+    href: 'https://v1.bourbondefi.com/',
   },
   {
     label: 'Trade',
