@@ -32,7 +32,7 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
-    label: 'Pools',
+    label: 'Distillery',
     icon: 'PoolIcon',
     href: '/pools',
   },
