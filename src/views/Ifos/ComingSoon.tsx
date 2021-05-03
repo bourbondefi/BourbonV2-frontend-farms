@@ -55,7 +55,7 @@ const ComingSoon = () => {
       <Content>
         <div>
           <Block>
-            <Title as="h2">{TranslateString(999, 'Coming Soon to Koala DeFi.')}</Title>
+            <Title as="h2">{TranslateString(999, 'Coming Soon to Bourbon DeFi.')}</Title>
             <Text mb={3}>
               {TranslateString(
                 504,
@@ -79,7 +79,7 @@ const ComingSoon = () => {
             <Text mb={3}>
               {TranslateString(
                 514,
-                'Launch your project with Koala DeFi, Binance Smart Chain’s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC.',
+                'Launch your project with Bourbon DeFi, Binance Smart Chain’s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC.',
               )}
             </Text>
             <Button
