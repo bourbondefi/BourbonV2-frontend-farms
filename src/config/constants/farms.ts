@@ -49,7 +49,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 2,
+    pid: 33,
     lpSymbol: 'RBT-BNBV2',
     lpAddresses: {
       97: '',
