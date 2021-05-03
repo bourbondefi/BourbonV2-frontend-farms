@@ -45,8 +45,8 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0xcbe73dd7E8FC74011136b837a59205801c45e6A1',
     },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
   },
   {
     pid: 33,
@@ -63,6 +63,52 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
+  {
+    pid: 34,
+    lpSymbol: 'BRRL-BUSDV2',
+    lpAddresses: {
+      97: '',
+      56: '0x70af18dc5556766bbd01da0d30123ff191f664b6',
+    },
+    tokenSymbol: 'BRRL',
+    tokenAddresses: {
+      97: '',
+      56: '0xcbe73dd7E8FC74011136b837a59205801c45e6A1',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 35,
+    lpSymbol: 'RBT-BUSDV2',
+    lpAddresses: {
+      97: '',
+      56: '0x9bc90e1e33a8a85dfa1db813af027fd342d2af0b',
+    },
+    tokenSymbol: 'RBT',
+    tokenAddresses: {
+      97: '',
+      56: '0x7595bb34bf391c3de0a6878a36d06223b2bfd404',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 36,
+    lpSymbol: 'TSB-BUSDV2',
+    lpAddresses: {
+      97: '',
+      56: '0x2A9272FfDE448ba1F3538Ad85811C42217A7f46f',
+    },
+    tokenSymbol: 'TSB',
+    tokenAddresses: {
+      97: '',
+      56: '0xA37F71f092F891757d23Dd350f57C78E8469c026',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+
   {
     pid: 22,
     isTokenOnly: true,
