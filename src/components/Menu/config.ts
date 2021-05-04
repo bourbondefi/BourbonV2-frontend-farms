@@ -9,7 +9,7 @@ const config: MenuEntry[] = [
   {
     label: 'Version 1',
     icon: 'HomeIcon',
-    href: 'https://v1.bourbondefi.com/',
+    href: 'https://www.v1bourbondefi.com/',
   },
   {
     label: 'Trade',
@@ -36,6 +36,12 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/pools',
   },
+  {
+    label: 'The Bar',
+    icon: 'IfoIcon',
+    href: '/bush',
+  },
+
   {
     label: 'Bourbon Barrel Token',
     icon: 'InfoIcon',

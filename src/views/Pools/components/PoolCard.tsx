@@ -162,7 +162,7 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
               <div style={{ flex: 1 }}>
                 <Button disabled={isFinished || requestedApproval} onClick={handleApprove} width="100%">
                   {pool?.isBush === true ? (
-                    <span>{TranslateString(999, 'Approve this bush')}</span>
+                    <span>{TranslateString(999, 'Approve')}</span>
                   ) : (
                     <span>{`Approve ${stakingTokenName}`}</span>
                   )}

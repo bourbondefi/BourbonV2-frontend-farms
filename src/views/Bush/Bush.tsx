@@ -126,21 +126,14 @@ const Bush: React.FC = () => {
     <>
       <Header>
         <Heading as="h1" size="xl" color="secondary" mb="24px">
-          {TranslateString(999, 'Bush')}
+          {TranslateString(999, 'Bourbon Bar')}
         </Heading>
         <Heading size="md" color="text">
           <ul>
-            <li>{TranslateString(580, 'Stake RBT to earn new tokens.')}</li>
             <li>{TranslateString(486, 'You can unstake at any time.')}</li>
             <li>{TranslateString(406, 'Rewards are calculated per block.')}</li>
-            <li>{TranslateString(742, 'Deposit fees will be automatically eaten (burnt)')}</li>
           </ul>
         </Heading>
-        <Text style={{ marginTop: '10px' }}>
-          <AddressLink href="https://koaladefi.medium.com/the-bush-next-evolution-d9e316be71f1" color="text" external>
-            <HelpIcon color="textSubtle" /> {TranslateString(743, 'Learn more about Bush')}
-          </AddressLink>
-        </Text>
       </Header>
       <PoolTabButtons stackedOnly={stackedOnly} setStackedOnly={setStackedOnly} />
       <Divider />
@@ -150,7 +143,7 @@ const Bush: React.FC = () => {
             {stackedOnly
               ? orderBy(stackedOnlyPools, ['sortOrder']).map((pool) => <PoolCard key={pool.sousId} pool={pool} />)
               : orderBy(openPools, ['sortOrder']).map((pool) => <PoolCard key={pool.sousId} pool={pool} />)}
-            <Coming />
+            
           </>
         </Route>
         <Route path={`${path}/history`}>
