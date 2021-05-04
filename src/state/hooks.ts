@@ -96,17 +96,17 @@ export const usePriceBnbBusd = (): BigNumber => {
 }
 
 export const usePriceCakeBusd = (): BigNumber => {
-  const pid = 3 // RBT-BUSD LP
+  const pid = 35 // RBT-BUSD LP
   const farm = useFarmFromPid(pid)
   return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO
 }
 export const usePriceBrrlBusd = (): BigNumber => {
-  const pid = 1 // BRRL-BUSD LP
+  const pid = 34 // BRRL-BUSD LP
   const farm = useFarmFromPid(pid)
   return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO
 }
 export const usePriceTSBBusd = (): BigNumber => {
-  const pid = 23 // TSB-BNB LP
+  const pid = 36 // TSB-BUSD LP
   const farm = useFarmFromPid(pid)
   return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO
 }

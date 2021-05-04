@@ -65,6 +65,9 @@ const App: React.FC = () => {
             <Route path="/bush"> 
               <Bush /> 
             </Route> 
+             <Route path="/lottery"> 
+              <Lottery /> 
+            </Route>
             {/* 404 */}
             <Route component={NotFound} />
           </Switch>
