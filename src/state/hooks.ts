@@ -259,7 +259,7 @@ export const useTotalValue = (): BigNumber => {
   }
 
   // bush (pools)
-  for (let i = 0; i < bushs.length; i++) {
+  for (let i = 70; i < bushs.length; i++) {
     const bush = bushs[i]
 
     const bushValue = new BigNumber(bush.totalStaked).times(cakePrice).div(new BigNumber(10).pow(bush.tokenDecimals))

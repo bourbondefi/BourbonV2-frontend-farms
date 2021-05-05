@@ -71,7 +71,7 @@ const Hero = () => {
       <StyledContainer>
         <LeftWrapper>
           <Title>The Bourbon Derby</Title>
-          <Blurb>Buy tickets with BUSD</Blurb>
+          <Blurb>Buy tickets with BRRL</Blurb>
           <Blurb>{TranslateString(712, 'Win if 2, 3, or 4 of your ticket numbers match!')}</Blurb>
         </LeftWrapper>
       </StyledContainer>

@@ -46,3 +46,7 @@ export const getBunnySpecialAddress = () => {
 export const getBUSDAddress = () => {
   return getAddress(addresses.busd)
 }
+export const getBrrlAddress = () => {
+  return getAddress(addresses.brrl)
+}
+
