@@ -177,7 +177,7 @@
     {
       "data": {
         "stringId": 344,
-        "text": "Deposita your LYPTUS to earn tokens of new projects."
+        "text": "Deposita your Bourbon to earn tokens of new projects."
       }
     },
     {
@@ -435,7 +435,7 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% LYPTUS Available"
+        "text": "%num% BRRL Available"
       }
     },
     {
@@ -495,7 +495,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "Ticket purchases are final. Your LYPTUS cannot be returned to you after buying tickets."
+        "text": "Ticket purchases are final. Your BRRL cannot be returned to you after buying tickets."
       }
     },
     {
@@ -543,7 +543,7 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve LYPTUS"
+        "text": "Approve BRRL"
       }
     },
     {
@@ -579,7 +579,7 @@
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, Koala DeFi Finance burns the LYPTUS."
+        "text": "Bourbon Finance Bottled on BSC."
       }
     },
     {
@@ -699,7 +699,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "LYPTUS to Collect"
+        "text": "BRRL to Collect"
       }
     },
     {
@@ -741,7 +741,7 @@
     {
       "data": {
         "stringId": 570,
-        "text": "Winning Numbers This Round"
+        "text": "Winning Horses This Round"
       }
     },
     {
@@ -831,7 +831,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your LYPTUS-LP Tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your Bourbon-LP Tokens to buy the IFO tokens"
       }
     },
     {
@@ -1143,7 +1143,7 @@
     {
       "data": {
         "stringId": 708,
-        "text": "The LYPTUS Lottery"
+        "text": "The Bourbon Derby"
       }
     },
     {

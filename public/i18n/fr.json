@@ -441,7 +441,7 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% LYPTUS Available"
+        "text": "%num% BRRL Available"
       }
     },
     {
@@ -501,7 +501,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "Ticket purchases are final. Your LYPTUS cannot be returned to you after buying tickets."
+        "text": "Ticket purchases are final. Your BRRL cannot be returned to you after buying tickets."
       }
     },
     {
@@ -549,7 +549,7 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve LYPTUS"
+        "text": "Approve BRRL"
       }
     },
     {
@@ -747,7 +747,7 @@
     {
       "data": {
         "stringId": 570,
-        "text": "Winning Numbers This Round"
+        "text": "Winning Horses This Round"
       }
     },
     {
@@ -837,7 +837,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your LYPTUS-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your BOURBON-LP tokens to buy the IFO tokens"
       }
     },
     {
@@ -1149,13 +1149,13 @@
     {
       "data": {
         "stringId": 708,
-        "text": "The LYPTUS Lottery"
+        "text": "The Bourbon Derby"
       }
     },
     {
       "data": {
         "stringId": 710,
-        "text": "Buy tickets with LYPTUS"
+        "text": "Buy tickets with BRRL"
       }
     },
     {
