@@ -3,7 +3,7 @@ import { PoolConfig, QuoteToken, PoolCategory } from './types'
 const pools: PoolConfig[] = [
  
   {
-    sousId: 69, // V1
+    sousId: 69, // V0
     tokenName: 'BESKAR',
     tokenLabel: 'BESKAR',
     tokenAddress: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
@@ -16,10 +16,10 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.CORE,
     projectLink: 'https://bourbondefi.com',
     harvest: true,
-    tokenPerBlock: '1000',
+    tokenPerBlock: '100000',
     sortOrder: 999,
     isFinished: false,
-    tokenDecimals: 9,
+    tokenDecimals: 18,
     isBush: true,
     bushVersion: 0,
   },
