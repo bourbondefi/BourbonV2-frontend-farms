@@ -3,7 +3,7 @@ import { PoolConfig, QuoteToken, PoolCategory } from './types'
 const pools: PoolConfig[] = [
  
   {
-    sousId: 67, // V1
+    sousId: 69, // V1
     tokenName: 'BESKAR',
     tokenLabel: 'BESKAR',
     tokenAddress: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
@@ -21,7 +21,7 @@ const pools: PoolConfig[] = [
     isFinished: false,
     tokenDecimals: 9,
     isBush: true,
-    bushVersion: 1,
+    bushVersion: 0,
   },
 ]
 
