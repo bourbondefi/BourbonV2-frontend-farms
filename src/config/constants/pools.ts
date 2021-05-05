@@ -6,7 +6,7 @@ const pools: PoolConfig[] = [
     sousId: 69, // V0
     tokenName: 'BESKAR',
     tokenLabel: 'BESKAR',
-    tokenAddress: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
+    tokenAddress: '0xa9f38Bd5084B6EB4eAF6e47E01Ff7a17e9c9EEa0',
     stakingTokenName: QuoteToken.MANDO,
     stakingTokenAddress: '0xFd5acC2016317eC2D970ba8D96bC8675Ff5aF56C',
     contractAddress: {
