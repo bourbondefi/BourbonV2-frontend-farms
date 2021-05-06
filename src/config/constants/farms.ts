@@ -594,15 +594,15 @@ const farms: FarmConfig[] = [
     lpSymbol: 'LTC',
     lpAddresses: {
       97: '',
-      56: '0xBc765Fd113c5bDB2ebc25F711191B56bB8690aec', // LTC-BNB LP
+      56: '0x9B60DB1dA3BEc30ef144BA5a908147c562ff822A', // LTC-BUSD LP
     },
     tokenSymbol: 'LTC',
     tokenAddresses: {
       97: '',
       56: '0x4338665CBB7B2485A8855A139b75D5e34AB0DB94',
     },
-    quoteTokenSymbol: QuoteToken.LTC,
-    quoteTokenAdresses: contracts.ltc,
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
   },
   {
     pid: 39,

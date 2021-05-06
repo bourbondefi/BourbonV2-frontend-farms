@@ -2,6 +2,8 @@ import React from 'react'
 import useI18n from 'hooks/useI18n'
 import styled from 'styled-components'
 import { Text, Flex, Link, LinkExternal } from '@pancakeswap-libs/uikit'
+import { Address } from 'config/constants/types'
+import getLiquidityUrlPathParts from 'utils/getLiquidityUrlPathParts'
 
 export interface ExpandableSectionProps {
   bscScanAddress?: string
@@ -11,6 +13,9 @@ export interface ExpandableSectionProps {
   lpLabel?: string
   addLiquidityUrl?: string
   isTokenOnly: boolean
+  tokenAddresses: Address
+  quoteTokenAdresses?: Address
+  quoteTokenSymbol?: string
 }
 
 const Wrapper = styled.div`
@@ -40,8 +45,13 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
   lpLabel,
   addLiquidityUrl,
   isTokenOnly,
+  tokenAddresses,
+  quoteTokenAdresses,
+  quoteTokenSymbol,
 }) => {
   const TranslateString = useI18n()
+  const liquidityUrlPathParts = getLiquidityUrlPathParts({ quoteTokenAdresses, quoteTokenSymbol, tokenAddresses })
+
 
   return (
     <Wrapper>
