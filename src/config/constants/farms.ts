@@ -366,7 +366,7 @@ const farms: FarmConfig[] = [
      56: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
    },
    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
+   quoteTokenAdresses: contracts.wbnb,
   },
   {
     pid: 14,
@@ -647,6 +647,85 @@ const farms: FarmConfig[] = [
       56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
     },
     quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 42,
+    isTokenOnly: true,
+    lpSymbol: 'INJ',
+    lpAddresses: {
+      97: '',
+      56: '0x3b87B536927d2E56430A2F1481cFfD5011B98C70', // INJ-BNB LP
+    },
+    tokenSymbol: 'INJ',
+    tokenAddresses: {
+      97: '',
+      56: '0xa2B726B1145A4773F68593CF171187d8EBe4d495',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 43,
+    isTokenOnly: true,
+    lpSymbol: 'LINK',
+    lpAddresses: {
+      97: '',
+      56: '0xaeBE45E3a03B734c68e5557AE04BFC76917B4686', // LINK-BNB LP
+    },
+    tokenSymbol: 'LINK',
+    tokenAddresses: {
+      97: '',
+      56: '0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 44,
+    isTokenOnly: true,
+    lpSymbol: 'FIL',
+    lpAddresses: {
+     97: '',
+      56: '0x35FE9787F0eBF2a200BAc413D3030CF62D312774', // FIL-BNB LP
+    },
+    tokenSymbol: 'FIL',
+    tokenAddresses: {
+     97: '',
+     56: '0x0D8Ce2A99Bb6e3B7Db580eD848240e4a0F9aE153',
+   },
+   quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 45,
+    isTokenOnly: true,
+    lpSymbol: 'EGLD',
+    lpAddresses: {
+     97: '',
+      56: '0x3Ef4952C7a9AfbE374EA02d1Bf5eD5a0015b7716', // EGLD-BNB LP
+    },
+    tokenSymbol: 'EGLD',
+    tokenAddresses: {
+     97: '',
+     56: '0xbF7c81FFF98BbE61B40Ed186e4AfD6DDd01337fe',
+   },
+   quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 46,
+    lpSymbol: 'ETH-BNB',
+    lpAddresses: {
+     97: '',
+      56: '0x74E4716E431f45807DCF19f284c7aA99F18a4fbc', // ETH-BNB LP
+    },
+    tokenSymbol: 'ETH',
+    tokenAddresses: {
+     97: '',
+     56: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
+   },
+   quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
 
