@@ -41,6 +41,7 @@ export enum QuoteToken {
   'TSB' = 'TSB',
   'MANDO' = 'MANDO',
   'DOGE' = 'DOGE',
+  'LTC' = 'LTC',
 }
 
 export enum PoolCategory {

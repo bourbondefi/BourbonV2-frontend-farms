@@ -83,4 +83,9 @@ export default {
     56: '0xbA2aE424d960c26247Dd6c32edC70B295c744C43',
     97: '',
   },
+  ltc: {
+    56: '0x4338665CBB7B2485A8855A139b75D5e34AB0DB94',
+    97: '',
+  },
+
 }
