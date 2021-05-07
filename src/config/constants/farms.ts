@@ -655,7 +655,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'INJ',
     lpAddresses: {
       97: '',
-      56: '0x3b87B536927d2E56430A2F1481cFfD5011B98C70', // INJ-BNB LP
+      56: '0x1BdCebcA3b93af70b58C41272AEa2231754B23ca', // INJ-BNB LP
     },
     tokenSymbol: 'INJ',
     tokenAddresses: {
