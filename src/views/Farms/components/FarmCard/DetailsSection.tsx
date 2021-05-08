@@ -13,9 +13,6 @@ export interface ExpandableSectionProps {
   lpLabel?: string
   addLiquidityUrl?: string
   isTokenOnly: boolean
-  tokenAddresses: Address
-  quoteTokenAdresses?: Address
-  quoteTokenSymbol?: string
 }
 
 const Wrapper = styled.div`
@@ -45,12 +42,8 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
   lpLabel,
   addLiquidityUrl,
   isTokenOnly,
-  tokenAddresses,
-  quoteTokenAdresses,
-  quoteTokenSymbol,
 }) => {
   const TranslateString = useI18n()
-  const liquidityUrlPathParts = getLiquidityUrlPathParts({ quoteTokenAdresses, quoteTokenSymbol, tokenAddresses })
 
 
   return (

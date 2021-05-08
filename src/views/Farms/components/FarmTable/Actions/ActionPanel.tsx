@@ -172,7 +172,11 @@ const ActionPanel: React.FunctionComponent<ActionPanelProps> = ({ details, apr, 
       <InfoContainer>
         <StakeContainer>
           Stake:
-          <StyledLinkExternal href={`https://v2exchange.bourbondefi.com/#/add/${liquidityUrlPathParts}`}>
+          <StyledLinkExternal href={farm.isTokenOnly ?
+            `https://v2exchange.bourbondefi.com/#/swap?outputCurrency=${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
+            :
+          `https://v2exchange.bourbondefi.com/#/add/${liquidityUrlPathParts}`
+        }>
             {lpLabel}
           </StyledLinkExternal>
         </StakeContainer>
