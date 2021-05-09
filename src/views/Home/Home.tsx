@@ -6,6 +6,8 @@ import Page from 'components/layout/Page'
 import FarmStakingCard from 'views/Home/components/FarmStakingCard'
 import LotteryCard from 'views/Home/components/LotteryCard'
 import CakeStats from 'views/Home/components/CakeStats'
+import BrrlStats from 'views/Home/components/BrrlStats'
+import TsbStats from 'views/Home/components/TsbStats'
 import TotalValueLockedCard from 'views/Home/components/TotalValueLockedCard'
 import EarnAPYCard from 'views/Home/components/EarnAPYCard'
 import EarnAssetCard from 'views/Home/components/EarnAssetCard'
@@ -104,6 +106,8 @@ const Home: React.FC = () => {
             <FarmStakingCard />
             <TwitterCard />
             <CakeStats />
+            <BrrlStats />
+            <TsbStats />
             <TotalValueLockedCard />
             <WinCard />
           </Cards>

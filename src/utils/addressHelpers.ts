@@ -49,4 +49,7 @@ export const getBUSDAddress = () => {
 export const getBrrlAddress = () => {
   return getAddress(addresses.brrl)
 }
+export const getTsbAddress = () => {
+  return getAddress(addresses.tsb)
+}
 
