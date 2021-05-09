@@ -728,6 +728,70 @@ const farms: FarmConfig[] = [
    quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
+  {
+    pid: 47,
+    isTokenOnly: true,
+    lpSymbol: 'XVS',
+    lpAddresses: {
+     97: '',
+      56: '0x7EB5D86FD78f3852a3e0e064f2842d45a3dB6EA2', // XVS-BNB LP
+    },
+    tokenSymbol: 'XVS',
+    tokenAddresses: {
+     97: '',
+     56: '0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63',
+   },
+   quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 48,
+    isTokenOnly: true,
+    lpSymbol: 'BUNNY',
+    lpAddresses: {
+     97: '',
+      56: '0x5aFEf8567414F29f0f927A0F2787b188624c10E2', // BUNNY-BNB LP
+    },
+    tokenSymbol: 'BUNNY',
+    tokenAddresses: {
+     97: '',
+     56: '0xC9849E6fdB743d08fAeE3E34dd2D1bc69EA11a51',
+   },
+   quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 49,
+    isTokenOnly: true,
+    lpSymbol: 'MDX',
+    lpAddresses: {
+     97: '',
+      56: '0xD1FEa1b8Cc81452a16bBF455952aD73Aa9Bd24Aa', // MDX-BNB LP
+    },
+    tokenSymbol: 'MDX',
+    tokenAddresses: {
+     97: '',
+     56: '0x9C65AB58d8d978DB963e63f2bfB7121627e3a739',
+   },
+   quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 50,
+    isTokenOnly: true,
+    lpSymbol: 'NRV',
+    lpAddresses: {
+     97: '',
+      56: '0x820B7d71218A74297645f0feC0B9dE85dcCa043C', // NRV-BNB LP
+    },
+    tokenSymbol: 'NRV',
+    tokenAddresses: {
+     97: '',
+     56: '0x42F6f551ae042cBe50C739158b4f0CAC0Edb9096',
+   },
+   quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
 
 ]
 
