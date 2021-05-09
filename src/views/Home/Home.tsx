@@ -32,7 +32,11 @@ const Hero = styled.div`
     padding-top: 0;
   }
 `
-
+const Blurb = styled(Text)`
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+`
 const Cards = styled(BaseLayout)`
   align-items: stretch;
   justify-content: stretch;
@@ -99,6 +103,7 @@ const Home: React.FC = () => {
         <Heading as="h1" size="xl" color="#FFFFFF" mb="24px">
           Bourbon Finance
         </Heading>
+        <Blurb>High yields Bourbon bottled on BSC</Blurb>
       </Header>
       <Page>
         <div>
