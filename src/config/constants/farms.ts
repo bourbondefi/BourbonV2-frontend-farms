@@ -782,7 +782,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'NRV',
     lpAddresses: {
      97: '',
-      56: '0x820B7d71218A74297645f0feC0B9dE85dcCa043C', // NRV-BNB LP
+      56: '0xe482249cd295c0d1e9d2baaee71e66de21024c68', // NRV-BNB LP
     },
     tokenSymbol: 'NRV',
     tokenAddresses: {
@@ -792,7 +792,6 @@ const farms: FarmConfig[] = [
    quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
-
 ]
 
 export default farms
