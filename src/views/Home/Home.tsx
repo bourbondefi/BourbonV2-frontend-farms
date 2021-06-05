@@ -114,7 +114,6 @@ const Home: React.FC = () => {
             <BrrlStats />
             <TsbStats />
             <TotalValueLockedCard />
-            <WinCard />
           </Cards>
         </div>
       </Page>
