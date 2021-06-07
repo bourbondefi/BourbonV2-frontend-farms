@@ -87,5 +87,17 @@ export default {
     56: '0x4338665CBB7B2485A8855A139b75D5e34AB0DB94',
     97: '',
   },
+  rbtbnb: {
+    56: '0xc97b05f916a851df01049b804ceea6a8fdcda848',
+    97: '',
+  },
+  brrlbnb: {
+    56: '0xb6320c8e808b961ac015ed4e801ee999a0bb23fe',
+    97: '',
+  },
+  tsbbnb: {
+    56: '0xCbdb89D56E7501Ba22732cF549E796aBB6346B02',
+    97: '',
+  },
 
 }

@@ -3,25 +3,67 @@ import { PoolConfig, QuoteToken, PoolCategory } from './types'
 const pools: PoolConfig[] = [
  
   {
-    sousId: 69, // V0
-    tokenName: 'BESKAR',
-    tokenLabel: 'BESKAR',
-    tokenAddress: '0xa9f38Bd5084B6EB4eAF6e47E01Ff7a17e9c9EEa0',
-    stakingTokenName: QuoteToken.MANDO,
-    stakingTokenAddress: '0xFd5acC2016317eC2D970ba8D96bC8675Ff5aF56C',
+    sousId: 76, // V1
+    tokenName: 'RBT',
+    tokenLabel: 'BRRL-BNB',
+    tokenAddress: '0x7595bb34Bf391C3de0a6878A36D06223b2BFd404',
+    stakingTokenName: QuoteToken.BRRLBNB,
+    stakingTokenAddress: '0xb6320c8e808b961ac015ed4e801ee999a0bb23fe',
     contractAddress: {
       97: '',
-      56: '0x18c863167152AC6dD55c1d3BAA47aC09351f2716',
+      56: '0x555D6cB5c1F8D6454C401114B8955Aa3F6d29652',
     },
     poolCategory: PoolCategory.CORE,
     projectLink: 'https://bourbondefi.com',
     harvest: true,
-    tokenPerBlock: '1000000',
+    tokenPerBlock: '0.000000074404761904',
     sortOrder: 999,
-    isFinished: true,
+    isFinished: false,
     tokenDecimals: 18,
     isBush: true,
-    bushVersion: 0,
+    bushVersion: 1,
+  },
+  {
+    sousId: 77, // V1
+    tokenName: 'RBT',
+    tokenLabel: 'RBT-BNB',
+    tokenAddress: '0x7595bb34Bf391C3de0a6878A36D06223b2BFd404',
+    stakingTokenName: QuoteToken.RBTBNB,
+    stakingTokenAddress: '0xc97b05f916a851df01049b804ceea6a8fdcda848',
+    contractAddress: {
+      97: '',
+      56: '0x7722D19A8A1dF904762AAE8Af2DF2DA8EB115Af0',
+    },
+    poolCategory: PoolCategory.CORE,
+    projectLink: 'https://bourbondefi.com',
+    harvest: true,
+    tokenPerBlock: '0.000000744047619047',
+    sortOrder: 999,
+    isFinished: false,
+    tokenDecimals: 18,
+    isBush: true,
+    bushVersion: 1,
+  },
+  {
+    sousId: 78, // V1
+    tokenName: 'RBT',
+    tokenLabel: 'TSB-BNB',
+    tokenAddress: '0x7595bb34Bf391C3de0a6878A36D06223b2BFd404',
+    stakingTokenName: QuoteToken.TSBBNB,
+    stakingTokenAddress: '0xc97b05f916a851df01049b804ceea6a8fdcda848',
+    contractAddress: {
+      97: '',
+      56: '0x555D6cB5c1F8D6454C401114B8955Aa3F6d29652',
+    },
+    poolCategory: PoolCategory.CORE,
+    projectLink: 'https://bourbondefi.com',
+    harvest: true,
+    tokenPerBlock: '0.0000074404761904',
+    sortOrder: 999,
+    isFinished: false,
+    tokenDecimals: 18,
+    isBush: true,
+    bushVersion: 1,
   },
 ]
 
