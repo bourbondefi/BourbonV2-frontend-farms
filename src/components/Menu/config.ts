@@ -38,7 +38,7 @@ const config: MenuEntry[] = [
   {
     label: '(v1 OLD) BRRL Distillery',
     icon: 'PoolIcon',
-    href: '/pools',
+    href: 'https://v1.bourbondefi.com/pools',
   },
   {
     label: '(V2 OLD) RBT Farms',

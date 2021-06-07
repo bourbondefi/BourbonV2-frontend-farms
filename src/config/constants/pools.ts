@@ -50,7 +50,7 @@ const pools: PoolConfig[] = [
     tokenLabel: 'TSB-BNB',
     tokenAddress: '0x7595bb34Bf391C3de0a6878A36D06223b2BFd404',
     stakingTokenName: QuoteToken.TSBBNB,
-    stakingTokenAddress: '0xc97b05f916a851df01049b804ceea6a8fdcda848',
+    stakingTokenAddress: '0xCbdb89D56E7501Ba22732cF549E796aBB6346B02',
     contractAddress: {
       97: '',
       56: '0x555D6cB5c1F8D6454C401114B8955Aa3F6d29652',
