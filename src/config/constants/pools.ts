@@ -53,7 +53,7 @@ const pools: PoolConfig[] = [
     stakingTokenAddress: '0xCbdb89D56E7501Ba22732cF549E796aBB6346B02',
     contractAddress: {
       97: '',
-      56: '0x555D6cB5c1F8D6454C401114B8955Aa3F6d29652',
+      56: '0x5A07ab7fD9538B6DeDf93d4684ba3E5A688be195',
     },
     poolCategory: PoolCategory.CORE,
     projectLink: 'https://bourbondefi.com',
