@@ -13,45 +13,24 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://v2exchange.bourbondefi.com/',
+        href: 'https://exchange.bourbondefi.com/',
       },
       {
         label: 'Liquidity',
-        href: 'https://v2exchange.bourbondefi.com/#/pool',
-      },
-      {
-        label: '(V1) Liquidity',
         href: 'https://exchange.bourbondefi.com/#/pool',
       },
     ],
   },
   {
-    label: 'The Bar',
-    icon: 'IfoIcon',
-    href: '/bush',
-  },
-  {
-    label: '(V1 OLD) BRRL Farms',
+    label: 'V4 Coming Soon',
     icon: 'FarmIcon',
-    href: 'https://v1.bourbondefi.com/farms',
+    href: '/',
   },
   {
-    label: '(v1 OLD) BRRL Distillery',
+    label: 'V4 Coming Soon',
     icon: 'PoolIcon',
-    href: 'https://v1.bourbondefi.com/pools',
+    href: '/',
   },
-  {
-    label: '(V2 OLD) RBT Farms',
-    icon: 'FarmIcon',
-    href: '/farms',
-  },
-  {
-    label: '(V2 OLD) RBT Distillery',
-    icon: 'PoolIcon',
-    href: '/pools',
-  },
-  
-
   {
     label: 'Bourbon Barrel Token',
     icon: 'InfoIcon',
