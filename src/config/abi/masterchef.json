@@ -69,7 +69,7 @@
 		"inputs": [
 			{
 				"internalType": "contract RbtToken",
-				"name": "_rbt",
+				"name": "_bourbon",
 				"type": "address"
 			},
 			{
@@ -84,7 +84,7 @@
 			},
 			{
 				"internalType": "uint256",
-				"name": "_rbtPerBlock",
+				"name": "_bourbonPerBlock",
 				"type": "uint256"
 			}
 		],
@@ -277,7 +277,7 @@
 		"inputs": [
 			{
 				"internalType": "uint256",
-				"name": "_rbtPerBlock",
+				"name": "_bourbonPerBlock",
 				"type": "uint256"
 			}
 		],
@@ -509,7 +509,7 @@
 	},
 	{
 		"inputs": [],
-		"name": "rbt",
+		"name": "bourbon",
 		"outputs": [
 			{
 				"internalType": "contract RbtToken",
@@ -522,7 +522,7 @@
 	},
 	{
 		"inputs": [],
-		"name": "rbtPerBlock",
+		"name": "bourbonPerBlock",
 		"outputs": [
 			{
 				"internalType": "uint256",

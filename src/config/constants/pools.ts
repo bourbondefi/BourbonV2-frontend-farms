@@ -65,6 +65,28 @@ const pools: PoolConfig[] = [
     isBush: true,
     bushVersion: 1,
   },
+  {
+    sousId: 79, // V1
+    tokenName: 'RBT',
+    tokenLabel: 'TSB-BNB',
+    tokenAddress: '0xf5E62DD360e55fBAc70caA3A264A86d2e776808C',
+    stakingTokenName: QuoteToken.TSBBNB,
+    stakingTokenAddress: '0xf5E62DD360e55fBAc70caA3A264A86d2e776808C',
+    contractAddress: {
+      97: '',
+      56: '0xDb7aBA4EAaC8Fd80b5ef5a11fA9Ae8CdF0E5D574',
+    },
+    poolCategory: PoolCategory.CORE,
+    projectLink: 'https://bourbondefi.com',
+    harvest: true,
+    tokenPerBlock: '0.0000074404761904',
+    sortOrder: 999,
+    isFinished: false,
+    tokenDecimals: 18,
+    isBush: true,
+    bushVersion: 1,
+  },
+
 ]
 
 export default pools

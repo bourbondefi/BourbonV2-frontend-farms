@@ -90,29 +90,19 @@ export const useBushs = (): Pool[] => {
 // Prices
 
 export const usePriceBnbBusd = (): BigNumber => {
-  const pid = 7 // BUSD-BNB LP
+  const pid = 0 // BUSD-BNB LP
   const farm = useFarmFromPid(pid)
   return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO
 }
 
 export const usePriceCakeBusd = (): BigNumber => {
-  const pid = 35 // RBT-BUSD LP
-  const farm = useFarmFromPid(pid)
-  return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO
-}
-export const usePriceBrrlBusd = (): BigNumber => {
-  const pid = 34 // BRRL-BUSD LP
-  const farm = useFarmFromPid(pid)
-  return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO
-}
-export const usePriceTSBBusd = (): BigNumber => {
-  const pid = 36 // TSB-BUSD LP
+  const pid = 2 // RBT-BUSD LP
   const farm = useFarmFromPid(pid)
   return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO
 }
 
 export const usePriceEthBusd = (): BigNumber => {
-  const pid = 13 // ETH-BNB LP
+  const pid = 1 // ETH-BUSD LP
   const bnbPriceUSD = usePriceBnbBusd()
   const farm = useFarmFromPid(pid)
   return farm.tokenPriceVsQuote ? bnbPriceUSD.times(farm.tokenPriceVsQuote) : ZERO
@@ -259,7 +249,7 @@ export const useTotalValue = (): BigNumber => {
   }
 
   // bush (pools)
-  for (let i = 70; i < bushs.length; i++) {
+  for (let i = 100; i < bushs.length; i++) {
     const bush = bushs[i]
 
     const bushValue = new BigNumber(bush.totalStaked).times(cakePrice).div(new BigNumber(10).pow(bush.tokenDecimals))

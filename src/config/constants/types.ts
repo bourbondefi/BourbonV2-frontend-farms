@@ -45,6 +45,7 @@ export enum QuoteToken {
   'RBTBNB' = 'RBTBNB',
   'BRRLBNB' = 'BRRLBNB',
   'TSBBNB' = 'TSBBNB',
+  'BOURBON' = 'BOURBON',
 }
 
 export enum PoolCategory {

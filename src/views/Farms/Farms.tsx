@@ -40,6 +40,22 @@ const ControlContainer = styled.div`
     padding: 16px 32px;
   }
 `
+const Hero = styled.div`
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 22px;
+  padding-top: 60px;
+
+  ${({ theme }) => theme.mediaQueries.lg} {
+    background-position: left center, right center;
+    height: 50px;
+    padding-top: 0;
+  }
+`
 
 const AddressLink = styled(Link)`
   display: inline-block;
@@ -110,8 +126,6 @@ const StyledImage = styled(Image)`
 
 const Header = styled.div`
   padding: 32px 0px;
-  background: ${({ theme }) => theme.colors.gradients.bubblegum};
-
   padding-left: 16px;
   padding-right: 16px;
 
@@ -119,6 +133,9 @@ const Header = styled.div`
     padding-left: 24px;
     padding-right: 24px;
   }
+`
+const CardImage = styled.img`
+  margin-bottom: 16px;
 `
 
 export interface FarmsProps {
@@ -356,16 +373,6 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
 
   return (
     <>
-      <Header>
-        <Heading as="h1" size="xxl" color="rbt" mb="24px">
-          {tokenMode
-            ? TranslateString(10002, 'Stake tokens to earn Rare Bourbon Barrel')
-            : TranslateString(320, 'Stake LP tokens to earn Rare Bourbon Barrel')}
-        </Heading>
-        <Heading size="lg" color="text">
-          {TranslateString(10000, 'Deposit Fee will be used to buyback Bourbon and lock liquidity')}
-        </Heading>
-      </Header>
       <Page>
         <ControlContainer>
           <ViewControls>

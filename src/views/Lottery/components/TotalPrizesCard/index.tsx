@@ -8,7 +8,7 @@ import { useTotalRewards } from 'hooks/useTickets'
 import PastLotteryDataContext from 'contexts/PastLotteryDataContext'
 import ExpandableSectionButton from 'components/ExpandableSectionButton/ExpandableSectionButton'
 import PrizeGrid from '../PrizeGrid'
-import { usePriceBrrlBusd } from '../../../../state/hooks'
+import { usePriceCakeBusd } from '../../../../state/hooks'
 
 const CardHeading = styled.div`
   position: relative;
@@ -60,7 +60,7 @@ const TotalPrizesCard = () => {
   const lotteryPrizeAmount = +getBalanceNumber(useTotalRewards()).toFixed(0)
   const lotteryPrizeWithCommaSeparators = lotteryPrizeAmount.toLocaleString()
   const { currentLotteryNumber } = useContext(PastLotteryDataContext)
-  const brrlPrice = usePriceBrrlBusd().toNumber()
+  const brrlPrice = usePriceCakeBusd().toNumber()
 
   return (
     <Card>

@@ -38,21 +38,21 @@ const CakeStats = () => {
   const totalSupply = useTotalSupply()
   const burnedBalance = useBurnedBalance(getCakeAddress())
   const farms = useFarms()
-  const rbtPrice = usePriceCakeBusd()
+  const bourbonPrice = usePriceCakeBusd()
   const circSupply = totalSupply ? totalSupply.minus(burnedBalance) : new BigNumber(0)
   const cakeSupply = getBalanceNumber(circSupply)
-  const marketCap = rbtPrice.times(circSupply)
+  const marketCap = bourbonPrice.times(circSupply)
 
-  let rbtPerBlock = 0
-  if (farms && farms[0] && farms[0].rbtPerBlock) {
-    rbtPerBlock = new BigNumber(farms[0].rbtPerBlock).div(new BigNumber(10).pow(18)).toNumber()
+  let bourbonPerBlock = 0
+  if (farms && farms[0] && farms[0].bourbonPerBlock) {
+    bourbonPerBlock = new BigNumber(farms[0].bourbonPerBlock).div(new BigNumber(10).pow(18)).toNumber()
   }
 
   return (
     <StyledCakeStats>
       <CardBody>
         <Heading size="lg" mb="24px">
-          Rare Bourbon Stats
+          Bourbon
         </Heading>
         <RowHighlighted>
           <Text fontSize="14px">
@@ -88,9 +88,9 @@ const CakeStats = () => {
           <CardValue fontSize="14px" value={getBalanceNumber(burnedBalance)} decimals={0} />
         </Row>
         <Row>
-          <Text fontSize="14px">New RBT/block</Text>
+          <Text fontSize="14px">Bourbon per block</Text>
           <Text bold fontSize="14px">
-            {rbtPerBlock}
+            {bourbonPerBlock}
           </Text>
         </Row>
       </CardBody>
