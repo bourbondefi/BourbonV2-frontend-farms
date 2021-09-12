@@ -123,6 +123,37 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
+  {
+    pid: 8,
+    lpSymbol: 'TSB-BNB',
+    lpAddresses: {
+      97: '',
+      56: '0x6fCf0c72423EfaB555d1310CD4e1388559B99b0f', // TSB-BNB LP
+    },
+    tokenSymbol: 'TSB',
+    tokenAddresses: {
+      97: '',
+      56: '0xA37F71f092F891757d23Dd350f57C78E8469c026',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 9,
+    isTokenOnly: true,
+    lpSymbol: 'TSB',
+    lpAddresses: {
+      97: '',
+      56: '0x6fCf0c72423EfaB555d1310CD4e1388559B99b0f', // TSB-BNB LP
+    },
+    tokenSymbol: 'BOURBON',
+    tokenAddresses: {
+      97: '',
+      56: '0xA37F71f092F891757d23Dd350f57C78E8469c026',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
 
 
 ]
