@@ -53,7 +53,7 @@ const Ifo = () => {
           </List>
           <Flex mb="16px">
             <LinkExternal href="https://exchange.bourbondefi.com/#/swap" mr="16px">
-              {TranslateString(1060, 'Buy RBT')}
+              {TranslateString(1060, 'Buy BOURBON')}
             </LinkExternal>
             <LinkExternal href="https://exchange.bourbondefi.com/#/add/ETH/0xba26397cdff25f0d26e815d218ef3c77609ae7f1">
               {TranslateString(1062, 'Get LP tokens')}

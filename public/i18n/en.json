@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Stake LP tokens to earn RBT"
+        "text": "Stake LP tokens to earn BOURBON"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake Rbt, get SYRUP."
+        "text": "Stake Bourbon, get SYRUP."
       }
     },
     {
@@ -219,7 +219,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "Rbt price"
+        "text": "Bourbon price"
       }
     },
     {
@@ -645,7 +645,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "Rbt Stats"
+        "text": "Bourbon Stats"
       }
     },
     {
@@ -687,7 +687,7 @@
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting RBT"
+        "text": "Collecting BOURBON"
       }
     },
     {
@@ -795,7 +795,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest RBT rewards for you!"
+        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest BOURBON rewards for you!"
       }
     },
     {
@@ -831,7 +831,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your RBT-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your BOURBON-LP tokens to buy the IFO tokens"
       }
     },
     {
@@ -1107,7 +1107,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Stake LP tokens to earn RBT"
+        "text": "Stake LP tokens to earn BOURBON"
       }
     },
     {

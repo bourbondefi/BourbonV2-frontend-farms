@@ -68,7 +68,7 @@ const ComingSoon = () => {
               </LiquidityLink>
             </Text>
             <Text mb={3}>
-              {TranslateString(508, 'The project gets the BNB, Koala DeFi burns the RBT.')}
+              {TranslateString(508, 'The project gets the BNB, Koala DeFi burns the BOURBON.')}
               <br />
               <strong>{TranslateString(510, 'You get the tokens.')}</strong>
             </Text>
