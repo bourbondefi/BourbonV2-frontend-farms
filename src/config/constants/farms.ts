@@ -59,8 +59,8 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0x953eFEBe00e7D573f027396f1E06231e04F7597f',
     },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
+    quoteTokenSymbol: QuoteToken.BOURBON,
+    quoteTokenAdresses: contracts.cake,
   },
   {
     pid: 4,
@@ -74,8 +74,8 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
     },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
   },
   {
     pid: 5,
@@ -93,6 +93,37 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
+  {
+    pid: 6,
+    lpSymbol: 'BOURBON-BNB',
+    lpAddresses: {
+      97: '',
+      56: '0xBadf1704650713ca9059880C90c5A5F8875E0E53', // BOURBON-BNB LP
+    },
+    tokenSymbol: 'BOURBON',
+    tokenAddresses: {
+      97: '',
+      56: '0x953eFEBe00e7D573f027396f1E06231e04F7597f',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 7,
+    lpSymbol: 'BOURBON-BUSD',
+    lpAddresses: {
+      97: '',
+      56: '0x81274f7c77b4fED59754F7e2ADC280Aac67eAB63', // BOURBON-BUSD LP
+    },
+    tokenSymbol: 'BOURBON',
+    tokenAddresses: {
+      97: '',
+      56: '0x953eFEBe00e7D573f027396f1E06231e04F7597f',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+
 
 ]
 
