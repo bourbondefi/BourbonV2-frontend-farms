@@ -144,15 +144,15 @@ const farms: FarmConfig[] = [
     lpSymbol: 'TSB',
     lpAddresses: {
       97: '',
-      56: '0x6fCf0c72423EfaB555d1310CD4e1388559B99b0f', // TSB-BNB LP
+      56: '0x2A9272FfDE448ba1F3538Ad85811C42217A7f46f', // TSB-BUSD LP
     },
-    tokenSymbol: 'BOURBON',
+    tokenSymbol: 'TSB',
     tokenAddresses: {
       97: '',
       56: '0xA37F71f092F891757d23Dd350f57C78E8469c026',
     },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
   },
 
 

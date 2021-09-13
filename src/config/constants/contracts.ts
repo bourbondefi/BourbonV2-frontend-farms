@@ -96,7 +96,11 @@ export default {
     97: '',
   },
   tsbbnb: {
-    56: '0xCbdb89D56E7501Ba22732cF549E796aBB6346B02',
+    56: '0x6fCf0c72423EfaB555d1310CD4e1388559B99b0f',
+    97: '',
+  },
+  tsbbusd: {
+    56: '0x2A9272FfDE448ba1F3538Ad85811C42217A7f46f',
     97: '',
   },
 
